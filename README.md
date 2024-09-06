@@ -7,7 +7,7 @@ The diagrammatic SDM framework pdf file provides a flow chart of development ste
 
 ## Structure
 The repository is structured as below:
-
+```
 SDM_FRAMEWORK
 ├── MaxEnt : This folder contains the MaxEnt open source software along with the MaxEnt README. 
 ├── MaxEnt_Tigers_in_India.ipynb : Example SDM implementation using Python
@@ -20,6 +20,7 @@ SDM_FRAMEWORK
 ├── requirements.txt : Installation requirements
 ├── samples : Clean tiger occurrence data for use in MaxEnt
 └── venv : Virtual environment used for this project
+```
 
 ## Installation instructions
 
