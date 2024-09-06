@@ -1,0 +1,9 @@
+Predictor variable,Categorical,Sample average
+2m_dewpoint_temperature,false,0.3968779476960813
+2m_temperature,false,0.36495572173102636
+evaporation,false,-0.17988850365715528
+leaf_area_index_high_vegetation,false,0.21982775150438932
+runoff,false,0.2699396928449667
+surface_solar_radiation_downwards,false,-0.13036330563463563
+total_precipitation,false,0.2413682761550771
+wind_speed,false,-0.18528154008383826
