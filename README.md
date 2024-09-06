@@ -1,7 +1,7 @@
 # SDM-XAI-Framework
 
 ## Overview
-This repository consists of a diagrammatic Species Distribution Modelling (SDM) framework pdf and example implementations of each stage in the flow chart. Existing species occurrence and environmental data has been sourced online and saved into the 'datasets folder. For the purpose of this IT artefact, the data contains tiger species occurrence data for the year 2023 along with the associated environmental data. The environmental data is taken for the year 2023 in India.
+This repository consists of a diagrammatic Species Distribution Modelling (SDM) framework pdf and example implementations of each stage in the flow chart. Existing species occurrence and environmental data has been sourced online and saved into the 'datasets folder. For the purpose of this IT artefact, the data contains tiger species occurrence data for the years 2019-2023 along with the associated environmental data. The environmental data is taken for the years 2019-2023 in India.
 
 The diagrammatic SDM framework pdf file provides a flow chart of development steps with the end goal of producing an interpretable SDM by levraging domain knowledge. The overall IT artefact demonstrates how data can be sourced, processed, modelled, and interpreted. The "MaxEnt_Tigers_In_India.ipynb" provides code that can be used and adapted for creating MaxEnt species distribution models. In reality, the development flow would incorporate a domain expert at each developmental stage, as shown in the Species Distribution Modelling (SDM) framework pdf.
 
@@ -25,22 +25,32 @@ SDM_FRAMEWORK
 ## Installation instructions
 
 1. Clone this repository with the below command:
+```
 git clone https://github.com/PhillGregory/SDM_Framework.git
+```
 
 2. Create and activate a virtual environment
 **MACOS/LINUX commands**
+```
 python3 -m venv venv
 source venv/bin/activate
+```
 
 **Windows commands**
+```
 python -m venv venv
 .\venv\Scripts\activate
+```
 
 3. Install the dependencies to your virtual environment which are stored in the requirements.txt file:
+```
 pip install -r requirements.txt
+```
 
 4. The MaxEnt software is located in the 'MaxEnt' folder and is called maxent.jar. As per the 'MaxEnt README', Windows users can open the software using 'maxent.bat'. Mac and Linux users can use the below command:
+```
 java -jar /path/to/maxent/maxent.jar  (Replace the file path as appropriate)
+```
 
 ## Data source information
 **Tiger species occurence data:**
